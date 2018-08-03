@@ -23,5 +23,5 @@ curl http://IP:9000/100kb
 
 ```
 curl -X POST http://IP:9000/customers -d '{"id": "1", "name":"sam smith"}'
-curl -X GET http://IP:9000/customers/1 -d '{"id": "1", "name":"sam smith"}'
+curl -X GET http://IP:9000/customers/1
 ```
